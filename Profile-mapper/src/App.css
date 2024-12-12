@@ -1,0 +1,48 @@
+.navbar {
+  background-color: beige !important;
+}
+
+.profile-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.map-container {
+  margin: 20px auto;
+  width: 80%;
+  height: 400px;
+  border: 1px solid #ccc;
+}
+
+/* Container to align the image and input */
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* Space between image and input */
+}
+
+/* Styling the circular image */
+.circle-img {
+  width: 50px;
+  /* Adjust the size of the circle */
+  height: 50px;
+  /* Make it equal to the width for a perfect circle */
+  border-radius: 50%;
+  /* This makes the image circular */
+  object-fit: cover;
+  /* Ensure the image fits the circle */
+}
+
+/* Styling the password input */
+.password-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
